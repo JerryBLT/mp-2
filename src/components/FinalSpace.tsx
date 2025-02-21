@@ -12,18 +12,18 @@ const AllCharsDiv=styled.div`
     margin: 10px;
 `;
 
-const SingleCharDiv=styled.div<{status: string}>`
-    display: flex;
-    flex-direction: column;   
-    justify-content: center;
-    max-width: 40%;
-    padding: 3%;
-    margin: 1%;
-    background-color: ${props => props.status === 'Alive' ? '#ADD8E6' : props.status === 'Deceased'  ? '#d63838' : props.status === 'Destroyed'? '#880808' : '#808080'};
-    color: ${(props) => (props.status == "Alive" ? 'black' : props.status == 'Deceased' ? 'white' : 'pink')};
-    border: 2px black solid;
-    align-items: center;
-`;
+// const SingleCharDiv=styled.div<{status: string}>`
+//     display: flex;
+//     flex-direction: column;   
+//     justify-content: center;
+//     max-width: 40%;
+//     padding: 3%;
+//     margin: 1%;
+//     background-color: ${props => props.status === 'Alive' ? '#ADD8E6' : props.status === 'Deceased'  ? '#d63838' : props.status === 'Destroyed'? '#880808' : '#808080'};
+//     color: ${(props) => (props.status == "Alive" ? 'black' : props.status == 'Deceased' ? 'white' : 'pink')};
+//     border: 2px black solid;
+//     align-items: center;
+// `;
 
 const CharacterName = styled.h1`
     font-size: calc(10px + 10px);
